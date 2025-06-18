@@ -19,7 +19,7 @@ public class MongoConfig1 {
     @Primary
     public MongoDatabaseFactory mongoDbFactory1() {
 
-        return new SimpleMongoClientDatabaseFactory("mongodb+srv://s01035495574:3VQgV476bjOyws0y@cluster0.t2rbfon.mongodb.net/ad*ress?retryWrites=true&w=majority&appName=Cluster0");
+        return new SimpleMongoClientDatabaseFactory("");
     }
 
     @Bean
