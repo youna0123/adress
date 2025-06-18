@@ -1,0 +1,25 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: s01035495574@gmail.com
+    password: jbirplnwseygffju
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+app:
+  jwt:
+    secret: dBPZsMf2T7llz5QSMqaqqigqpJWUT8sSJ8Fy6YoHCMDvxBxChKbCtl2k3jIFYhcP
+    expirationMs: 86400000
+
+  base-url: http://13.125.178.76:8080
