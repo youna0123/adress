@@ -2,13 +2,11 @@
 
 > **평범한 옷차림에 싫증 난 MZ세대 여성**을 위한 독특한 스타일 제안 서비스입니다.  
 > 사용자의 디지털 옷장과 날씨, TPO, 개인 취향, 그리고 패션 피드백까지 통합하여 AI 기반 코디네이션을 추천합니다.
-
-
-
+<br>
+<br>
 ---
-
-
-
+<br>
+<br>
 ## 🔍 주요 기능
 
 - **AI 기반 코디 추천** (GPT-4.1 사용)
@@ -17,13 +15,11 @@
 - **벡터 유사도 검색**으로 아이템 검색
 - **피드백 반영 시스템**으로 개인 코디룰 자동 업데이트
 - **찜 기능**을 통한 코디 저장/조회/삭제
-
-
-
+<br>
+<br>
 ---
-
-
-
+<br>
+<br>
 ## 🔨 How to Build
 
 1. **Git Clone**
@@ -81,26 +77,22 @@
     ```bash
     ./gradlew clean build
     ```
-
-
-
+<br>
+<br>
 ---
-
-
-
+<br>
+<br>
 ## 🚀 How to Run
 
 **로컬 실행**
 ```bash
 ./gradlew bootRun
 ```
-
-
-
+<br>
+<br>
 ---
-
-
-
+<br>
+<br>
 ## 🧪 How to Test
 
 **Postman으로 테스트**
@@ -109,13 +101,11 @@
 - `POST /api/outfit/addFavoriteCoordination`: 찜 등록
 - `GET /api/outfit/getFavoriteCoordinations`: 찜 목록 조회
 - `DELETE /api/outfit/removeFavoriteCoordination/{id}`: 찜 삭제
-
-
-
+<br>
+<br>
 ---
-
-
-
+<br>
+<br>
 ## 📧 문의
 
 - 이메일: kyaa123@naver.com
