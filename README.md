@@ -88,11 +88,31 @@
 ## 🧪 How to Test
 
 **Postman으로 테스트**
+Auth 탭에서 Auth Type은 Bearer Token으로 설정하고 Token 입력 란에 로그인하여 받은 토큰을 입력해야 한다.
+그리고 Header 탭에서 새로운 변수로 Content-Type을 추가하고 값은 application/json으으로 한다.
+
 - `POST /api/outfit/recommend`: 코디 요청
+```입력 예시
+{
+  "minTemperature": 10,
+  "maxTemperature": 20,
+  "schedule": "데이트",
+  "requirements": "귀엽게",
+  "necessaryClothesIds": [],
+  "uniqueCoordinationType": "no unique coordination",
+  "wardrobeNames": [],
+  "useBasicWardrobe": true
+}
+```
 - `POST /api/outfit/feedback`: 피드백 반영
-- `POST /api/outfit/addFavoriteCoordination`: 찜 등록
-- `GET /api/outfit/getFavoriteCoordinations`: 찜 목록 조회
-- `DELETE /api/outfit/removeFavoriteCoordination/{id}`: 찜 삭제
+```입력 예시
+{
+    "outfit": {
+        "top1": "이미지 URL",
+        "pants":"이미지 URL"},
+    "feedback": "프린트가 너무 화려해요"
+}
+```
 
 ---
 
